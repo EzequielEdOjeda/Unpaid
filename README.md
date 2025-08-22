@@ -44,5 +44,3 @@ var days_deadline = 60; // Días después del vencimiento para que desaparezca c
 ## Advertencia
 
 Este script debe usarse con responsabilidad. Su objetivo es incentivar el cumplimiento de pagos, pero recuerda que bloquear o hacer invisible un sitio puede afectar la experiencia del usuario o la reputación del proyecto.
-
-```
