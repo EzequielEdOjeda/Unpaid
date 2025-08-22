@@ -8,7 +8,6 @@
  * Diseñado para usarse en proyectos donde el acceso depende de pagos o cumplimiento.
  */
 
-
 (function() {
     // CONFIGURACIÓN
     var due_date = new Date('2025-08-22'); // Fecha límite para el vencimiento
@@ -37,11 +36,10 @@
         // Aplicar opacidad al wrapper (todo el contenido)
         wrapper.style.opacity = opacity;
 		
-        console.warn("El sitio tiene una falta de pago.");
-		
         // Mostrar popup si ya pasó el plazo
         if (days_late >= days_deadline) {
             showPaymentPopup();
+			console.warn("El sitio tiene una falta de pago.");
         }
     }
 
