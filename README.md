@@ -17,7 +17,6 @@ Este script añade opacidad a la etiqueta `<body>` de tu sitio web y reduce prog
 ```js
 /* Cambia estas variables según tus necesidades */
 var due_date = new Date('2025-08-22'); // Fecha límite para el vencimiento
-
 var days_deadline = 60; // Días después del vencimiento para que desaparezca completamente
 /* Deja de cambiar aquí */
 ````
@@ -32,7 +31,7 @@ var days_deadline = 60; // Días después del vencimiento para que desaparezca c
 <script src="Unpaid.js"></script>
 ```
 
-2. El script se ejecutará automáticamente y aplicará el efecto de opacidad dependiendo de la fecha actual y la configuración.
+2. El script se ejecutará automáticamente y aplicará el efecto dependiendo de la fecha actual y la definida.
 
 ---
 
